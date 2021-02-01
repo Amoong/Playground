@@ -1,6 +1,7 @@
 import React from "react";
 import Counter from "./Counter";
 import MyForm from "./MyForm";
+import ReducerSample from "./ReducerSample";
 
 function App() {
   const onSubmit = (form: { title: string; description: string }) => {
@@ -8,7 +9,9 @@ function App() {
   };
   return (
     <div className="App">
-      <MyForm onSubmit={onSubmit} />
+      {/* <Counter /> */}
+      {/* <MyForm onSubmit={onSubmit} /> */}
+      <ReducerSample />
     </div>
   );
 }
