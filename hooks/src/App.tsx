@@ -10,8 +10,8 @@ function App() {
   return (
     <div className="App">
       {/* <Counter /> */}
-      {/* <MyForm onSubmit={onSubmit} /> */}
-      <ReducerSample />
+      <MyForm onSubmit={onSubmit} />
+      {/* <ReducerSample /> */}
     </div>
   );
 }
