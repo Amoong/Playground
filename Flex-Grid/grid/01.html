@@ -9,23 +9,27 @@
     <style>
       .grid-container {
         display: grid;
-        /* grid-template-columns: 100px 300px 200px; */
-        /* grid-template-columns: 1fr 2fr 1fr; */
-        /* grid-template-columns: 1fr 500px 1fr; */
         grid-template-columns: repeat(3, 1fr);
-        /* grid-template-columns: repeat(3, 1fr 2fr 1fr); */
-        /* grid-template-rows: 200px 200px auto; */
-        grid-template-rows: repeat(2, 1fr);
-        height: 80vh;
+        grid-template-rows: repeat(3, minmax(100px, auto));
       }
     </style>
   </head>
   <body>
     <div class="grid-container">
-      <div class="grid-item">A</div>
+      <div class="grid-item">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa,
+        pariatur.
+      </div>
       <div class="grid-item">B</div>
       <div class="grid-item">C</div>
-      <div class="grid-item">D</div>
+      <div class="grid-item">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum
+        cupiditate aperiam atque nobis voluptatum, veniam porro odio aliquam
+        quis ut dicta dignissimos in, excepturi, earum eligendi ratione
+        accusantium quo eos labore suscipit beatae odit! Enim omnis veritatis
+        nemo voluptas dolor sapiente ipsam voluptates praesentium consequuntur
+        nisi expedita esse, ab molestiae!
+      </div>
       <div class="grid-item">E</div>
       <div class="grid-item">F</div>
       <div class="grid-item">G</div>
