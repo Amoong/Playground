@@ -12,3 +12,17 @@
 .primary {
   padding: 1rem;
 }
+.secondary {
+  padding: 1rem;
+}
+.secondary-a {
+  background: white;
+}
+.secondary-b {
+  color: white;
+  background: #666;
+}
+.footer {
+  padding: 1rem;
+  text-align: center;
+}

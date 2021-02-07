@@ -100,6 +100,10 @@ h1 {
 }
 
 /* bullet list */
+.info-list {
+  margin-bottom: 2rem;
+}
+
 .info-list-item {
   display: flex;
   margin: 0.5em 0;
