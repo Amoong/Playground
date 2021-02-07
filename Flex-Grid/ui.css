@@ -1,3 +1,8 @@
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 /* menu */
 .menu {
   display: flex;
@@ -31,7 +36,8 @@
 }
 
 .search-form input[type="search"] {
-  flex: 1;
+  flex: 1 1 0;
+  width: 0;
   margin-right: 10px;
   border: 0;
   border-radius: 0.3rem;
@@ -45,6 +51,7 @@
   border-radius: 0.3rem;
   font-size: 1rem;
   background-color: gold;
+  flex: 0 0 auto;
 }
 
 /* card list */
