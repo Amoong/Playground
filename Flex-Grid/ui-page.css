@@ -1,6 +1,5 @@
 .header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   height: 80px;
   padding: 0 1rem;
@@ -8,6 +7,7 @@
 .search-form {
   width: 300px;
   max-width: 60%;
+  margin-left: auto;
 }
 .primary {
   padding: 1rem;
