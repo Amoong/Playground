@@ -78,30 +78,29 @@ label[for="modal-switch"] span {
   .page {
     display: grid;
     grid-template-columns: 20% 1fr 20%;
+    grid-template-areas:
+      "header       header  header"
+      "menu         menu    menu"
+      "secondary-a   primary secondary-b"
+      "footer       footer  footer";
   }
   .header {
-    grid-column: 1 / 4;
-    grid-row: 1;
+    grid-area: header;
   }
   .menu {
-    grid-column: 1 / 4;
-    grid-row: 2;
+    grid-area: menu;
   }
   .primary {
-    grid-column: 2 / 3;
-    grid-row: 3;
+    grid-area: primary;
   }
   .secondary-a {
-    grid-column: 1;
-    grid-row: 3;
+    grid-area: secondary-a;
   }
   .secondary-b {
-    grid-column: 3;
-    grid-row: 3;
+    grid-area: secondary-b;
   }
   .footer {
-    grid-column: 1 / 4;
-    grid-row: 4;
+    grid-area: footer;
   }
 }
 
