@@ -1,0 +1,46 @@
+.grid-container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1000px;
+}
+
+header,
+main,
+footer {
+  grid-column: 1/5;
+}
+
+button {
+  height: 40px;
+}
+
+header {
+  font-size: 70px;
+}
+
+.item {
+  width: 100%;
+  height: 150px;
+  background: crimson;
+}
+
+.dodgerblue {
+  grid-row: 3/4;
+  background: dodgerblue;
+}
+
+.gold {
+  grid-row: 4/5;
+  background: gold;
+}
+
+.peru {
+  grid-row: 5/6;
+  background: peru;
+}
+
+.teal {
+  grid-row: 6/7;
+  background: teal;
+}
